@@ -205,7 +205,7 @@
 
 前端主要由react实现，后端从逻辑上分为四层如下图
 
-![image](https://github.com/zhangzuyuan/paper_master/blob/master/picture/1.pdf)
+![image](https://github.com/zhangzuyuan/paper_master/blob/master/picture/1.png)
 
 后端不同层的功能如下
 
@@ -265,7 +265,7 @@
 
 随便画画，随便看看，一共有六张表
 
-![image](https://github.com/zhangzuyuan/paper_master/blob/master/picture/2.pdf)
+![image](https://github.com/zhangzuyuan/paper_master/blob/master/picture/2.png)
 
 ## 版本更新
 
@@ -294,7 +294,7 @@
 
 3.然后通过数据库选出前k小的边权和节点连边，然后接着从连接的k个节点里面再选k个连边。往外扩充d层
 
-![image](https://github.com/zhangzuyuan/paper_master/blob/master/picture/3.pdf)
+![image](https://github.com/zhangzuyuan/paper_master/blob/master/picture/3.png)
 
 4.将该拓扑图数据传到前端进行可视化
 
