@@ -205,6 +205,8 @@
 
 前端主要由react实现，后端从逻辑上分为四层如下图
 
+![image](https://github.com/zhangzuyuan/paper_master/blob/master/picture/1.pdf)
+
 后端不同层的功能如下
 
 ### API
@@ -263,6 +265,8 @@
 
 随便画画，随便看看，一共有六张表
 
+![image](https://github.com/zhangzuyuan/paper_master/blob/master/picture/2.pdf)
+
 ## 版本更新
 
 ### 1.完善功能
@@ -286,11 +290,11 @@
 
 2.你和你周围的人进行运算得到关系的强弱
 
-$$Loss(u,v) = \sum_{i}^{colum} \sum_{w \in colum[i]}(\frac{num(w_{u})}{\sum_{w_{u} \in colum[i]}num(w_{u})}-\frac{num(w_{v})}{\sum_{w_{v} \in colum[i]}num(w_{v})}) (f(w_{u}) -f(w_{v}))^{2}}$$
+![image](https://github.com/zhangzuyuan/paper_master/blob/master/picture/function.svg)
 
 3.然后通过数据库选出前k小的边权和节点连边，然后接着从连接的k个节点里面再选k个连边。往外扩充d层
 
-
+![image](https://github.com/zhangzuyuan/paper_master/blob/master/picture/3.pdf)
 
 4.将该拓扑图数据传到前端进行可视化
 
